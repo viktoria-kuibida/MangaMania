@@ -5,4 +5,15 @@ header
 
 button
 {color: black;
-background-color: aquamarine;}
+background-color: aquamarine;
+border-radius: 12px;
+}
+
+button:hover {
+  background-color: black;
+  color: aquamarine;
+}
+
+.checkbox {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
