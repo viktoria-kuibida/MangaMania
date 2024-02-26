@@ -1,19 +1,32 @@
 h1
 {
-  color: aqua;
+  color: #037bfc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button
 {color: black;
-background-color: aquamarine;
+background-color: #037bfc;
 border-radius: 12px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
 }
 
 button:hover {
-  background-color: black;
-  color: aquamarine;
+  background-color: #b5cee8;
+  color: #037bfc;
 }
 
 .checkbox {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.birthdaytime {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
