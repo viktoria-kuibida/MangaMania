@@ -13,13 +13,18 @@ button
 background-color: #037bfc;
 border-radius: 12px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-height: 40px;
-width: 100px;
+font-size: small;
+height: 100px;
+width: 200px;
+background-image: url(../images/papirfly.jpg.webp);
+background-size: 100%;
+background-position: right;
 }
 
 button:hover {
   background-color: #b5cee8;
   color: #037bfc;
+  ;
 }
 
 .font {
@@ -27,7 +32,8 @@ button:hover {
 }
 
 body {
-  background-image: url(https://static01.nytimes.com/newsgraphics/2023-06-13-manga-translation/0ecaf47ddf2ca296ea63c78681639ff963f3a1ba/_big_assets/images/tekkonkrinket-highlight-460_x2.jpg);
+  background-image: url(../images/baggrund.png);
+  background-position-x: right;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 85%;
 }
