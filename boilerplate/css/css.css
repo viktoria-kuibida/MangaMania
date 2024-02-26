@@ -13,7 +13,8 @@ button
 background-color: #037bfc;
 border-radius: 12px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+height: 40px;
+width: 100px;
 }
 
 button:hover {
