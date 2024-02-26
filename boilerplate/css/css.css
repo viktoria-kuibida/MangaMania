@@ -9,13 +9,13 @@ h3{
 }
 
 button
-{color: black;
+{color: transparent;
 background-color: #037bfc;
 border-radius: 12px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: small;
-height: 100px;
-width: 200px;
+height: 50px;
+width: 100px;
 background-image: url(../images/papirfly.jpg.webp);
 background-size: 100%;
 background-position: right;
@@ -24,7 +24,8 @@ background-position: right;
 button:hover {
   background-color: #b5cee8;
   color: #037bfc;
-  ;
+  background-image: none;
+  font-size: 20px;
 }
 
 .font {

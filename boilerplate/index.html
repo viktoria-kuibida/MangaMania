@@ -7,39 +7,33 @@
   <link rel="stylesheet" href="css/css.css">
 </head>
 <body>
-
+<form action="svar.html">
   
  <h1>Manga Mania Formularer</h1>
 
+ <section class="navnemail">
  <h3>Skriv dit navn & email</h3>
 <section class="font">
-<form action="/action_page.php">
   <label for="fornavn">Fornavn</label><br>
   <input type="text" id="Fornavn" name="Fornavn"><br>
   <label for="efternavn">Efternavn</label><br>
   <input type="text" id="Efternavn" name="Efternavn"><br>
-</form>
-
-
-
  <label for="email">E-mail</label><br>
  <input type="email" id="email" name="email">
+</section>
 </section>
 
  <h3> Din fødselsdag dato </h3>
  <!-- Kalenderskema f.eks. fødselsdag -->
 <section class="font">
- <form action="/action_page.php">
   <label for="birthdaytime">Fødselsdag</label>
   <input type="date" id="birthdaytime" name="birthdaytime">
-</form>
 </section>
 
 
 <h3>Hvad er din yndlingskarakter?</h3>
 <!-- (Radio)-kun en valgmulighed -->
 <section class="font">
-  <form action="/action_page.php">
     <input type="radio" id="Puka" name="yndlingskarakter" value="Puka">
     <label for="Puka">Puka</label> <br>
     <input type="radio" id="Nina" name="yndlingskarakter" value="Nina" >
@@ -48,7 +42,6 @@
     <label for="Astro Boy">Astro Boy</label><br>
     <input type="radio" id="Naruto" name="yndlingskarakter" value="Naruto" >
     <label for="Naruto">Naruto</label><br>
-</form>
 </section>
 
 <!-- Flere vælgmuligheder-->
@@ -65,15 +58,17 @@
 
 <h3> Hvor meget elsker du Manga Mania? </h3>
 <section class="font">
-  <form action="/acrion_page.php">
     <label for="vol">Volume (between 0 and 10):</label>
     <input type="range" id="vol" name="vol" min="0" max="10">
-  </form>
 </section>
 <br> <br>
+
+
   <button>
-    Tryk her
+    <b>Send</b>
   </button>
  
+</form>
+
 </body>
 </html>
