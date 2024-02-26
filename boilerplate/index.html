@@ -11,23 +11,47 @@
   
  <h1>Manga Mania Formularer</h1>
 
- <h3>Skriv din e-mail</h3>
- <label for="email">E-mail</label>
+ <h3>Skriv dit navn og email</h3>
+
+<form action="/action_page.php">
+  <label for="fornavn">Fornavn</label><br>
+  <input type="text" id="Fornavn" name="Fornavn"><br>
+  <label for="efternavn">Efternavn</label><br>
+  <input type="text" id="Efternavn" name="Efternavn"><br>
+</form>
+
+
+ <label for="email">E-mail</label><br>
  <input type="email" id="email" name="email">
 
  <h3> Din fødselsdag dato </h3>
-<section class="birthdaytime">
+ <!-- Kalenderskema f.eks. fødselsdag -->
+<section class="font">
  <form action="/action_page.php">
   <label for="birthdaytime">Fødselsdag</label>
   <input type="date" id="birthdaytime" name="birthdaytime">
 </form>
 </section>
-<h3>Hvilke typer af tegneserier læser du?</h3>
 
-<section class="">
-  
+
+<h3>Hvad er din yndlingskarakter?</h3>
+<!-- (Radio)-kun en valgmulighed -->
+<section class="font">
+  <form action="/action_page.php">
+    <input type="radio" id="Puka" name="yndlingskarakter" value="Puka">
+    <label for="Puka">Puka</label> <br>
+    <input type="radio" id="Nina" name="yndlingskarakter" value="Nina" >
+    <label for="Nina">Nina</label><br>
+    <input type="radio" id="Astro Boy" name="yndlingskarakter" value="Astro Boy" >
+    <label for="Astro Boy">Astro Boy</label><br>
+    <input type="radio" id="Naruto" name="yndlingskarakter" value="Naruto" >
+    <label for="Naruto">Naruto</label><br>
+</form>
 </section>
-  <section class="checkbox">
+
+<!-- Flere vælgmuligheder-->
+<h3>Hvilke typer af tegneserier læser du?</h3>
+  <section class="font">
 <input type="checkbox" id="type1" name="type1" value="Denne type">
 <label for="type1">Denne type</label><br>
 <input type="checkbox" id="type2" name="type2" value="En anden type">
@@ -37,6 +61,14 @@
 <br>
 </section>
 
+<h3> Hvor meget elsker du Manga Mania? </h3>
+<section class="font">
+  <form action="/acrion_page.php">
+    <label for="vol">Volume (between 0 and 10):</label>
+    <input type="range" id="vol" name="vol" min="0" max="10">
+  </form>
+</section>
+<br>
   <button>
     Tryk her
   </button>
